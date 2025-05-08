@@ -1,0 +1,37 @@
+body {
+    background-image: url('/images/paper-1074131_1280.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.circle-container {
+    display: flex;
+    gap: 6px; /* Espacio entre círculos */
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .circle.active {
+    background-color: red;
+  }
+  .meow-script-regular {
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+        
